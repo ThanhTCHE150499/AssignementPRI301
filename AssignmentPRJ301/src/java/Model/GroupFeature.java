@@ -9,5 +9,31 @@ package Model;
  * @author Admin
  */
 public class GroupFeature {
+    private int GroupID ;
+    private String FeatureID ; 
+
+    public GroupFeature() {
+    }
+
+    public GroupFeature(int GroupID, String FeatureID) {
+        this.GroupID = GroupID;
+        this.FeatureID = FeatureID;
+    }
+
+    public int getGroupID() {
+        return GroupID;
+    }
+
+    public String getFeatureID() {
+        return FeatureID;
+    }
+
+    public void setGroupID(int GroupID) {
+        this.GroupID = GroupID;
+    }
+
+    public void setFeatureID(String FeatureID) {
+        this.FeatureID = FeatureID;
+    }
     
 }
